@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_home"
+            android:icon="@drawable/home"
+            android:title="主         页" />
+        <item
+            android:id="@+id/item_paper"
+            android:icon="@drawable/paper"
+            android:title="论文管理" />
+        <item
+            android:id="@+id/item_order"
+            android:icon="@drawable/order"
+            android:title="在线预订" />
+        <item
+            android:id="@+id/item_intend"
+            android:icon="@drawable/intend"
+            android:title="订单管理" />
+    </group>
+</menu>

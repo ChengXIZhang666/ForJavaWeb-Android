@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="预订接送服务"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="站点："
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/take_locate"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="3"
+            android:background="#5C84CEFF"
+            android:entries="@array/take" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="人数："
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/take_person_number"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="3"
+            android:background="#5C84CEFF"
+            android:entries="@array/number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="总价："
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/take_price"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="3"
+            android:paddingLeft="10dp"
+            android:text="3元"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="车牌号："
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/take_car_number"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="3"
+            android:paddingLeft="10dp"
+            android:text="鲁A777777"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="班次："
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/take_order"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="3"
+            android:background="#5C84CEFF"
+            android:entries="@array/order" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="下单时间："
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/take_time"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="3"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/take_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text="提交订单"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+</LinearLayout>

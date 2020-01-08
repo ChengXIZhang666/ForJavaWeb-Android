@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/get_eat_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_light"
+            android:text="获取吃"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/get_live_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_light"
+            android:text="获取居住"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/get_take_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_light"
+            android:text="获取接送"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:layout_weight="2.5"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/show1"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="40dp"-->
+    <!--            android:layout_gravity="left"-->
+    <!--            android:layout_marginTop="50dp"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textSize="25sp" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/show2"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="40dp"-->
+    <!--            android:layout_gravity="left"-->
+    <!--            android:layout_marginTop="15dp"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textSize="25sp" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/show3"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="40dp"-->
+    <!--            android:layout_gravity="left"-->
+    <!--            android:layout_marginTop="15dp"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textSize="25sp" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/show4"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="40dp"-->
+    <!--            android:layout_gravity="left"-->
+    <!--            android:layout_marginTop="15dp"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textSize="25sp" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/show5"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="40dp"-->
+    <!--            android:layout_gravity="left"-->
+    <!--            android:layout_marginTop="15dp"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textSize="25sp" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/show6"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="40dp"-->
+    <!--            android:layout_gravity="left"-->
+    <!--            android:layout_marginTop="15dp"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textSize="25sp" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/show7"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="40dp"-->
+    <!--            android:layout_gravity="left"-->
+    <!--            android:layout_marginTop="15dp"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textSize="25sp" />-->
+
+    <!--    </LinearLayout>-->
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="2.5"-->
+<!--        android:padding="10dp">-->
+
+<!--        <ListView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" />-->
+<!--    </ScrollView>-->
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/choose_eat_indent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn"
+        android:text="饮食订单管理"
+        android:textColor="#ffffff"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/choose_live_indent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn"
+        android:text="居住订单管理"
+        android:textColor="#ffffff"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/choose_take_indent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn"
+        android:text="接送订单管理"
+        android:textColor="#ffffff"
+        android:textSize="35sp" />
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="预订饮食服务"-->
+    <!--        android:textSize="25sp" />-->
+
+
+    <!--    <Spinner-->
+    <!--        android:id="@+id/book_eat"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="30dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:background="#5C84CEFF"-->
+    <!--        android:entries="@array/eatmanage" />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:text="预订居住服务"-->
+    <!--        android:textSize="25sp" />-->
+
+
+    <!--    <Spinner-->
+    <!--        android:id="@+id/book_live"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="30dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:background="#5C84CEFF"-->
+    <!--        android:entries="@array/live" />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:text="预订接送服务"-->
+    <!--        android:textSize="25sp" />-->
+
+
+    <!--    <Spinner-->
+    <!--        android:id="@+id/book_take"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="30dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:background="#5C84CEFF"-->
+    <!--        android:entries="@array/take" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_marginTop="10dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/back2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_worring"
+            android:text="无须预约"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+        <!--        <Button-->
+        <!--            android:id="@+id/book_service"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginLeft="10dp"-->
+        <!--            android:layout_marginTop="30dp"-->
+        <!--            android:layout_weight="1"-->
+        <!--            android:background="@drawable/btn"-->
+        <!--            android:text="填写订单"-->
+        <!--            android:textColor="#ffffff"-->
+        <!--            android:textSize="25sp" />-->
+    </LinearLayout>
+</LinearLayout>

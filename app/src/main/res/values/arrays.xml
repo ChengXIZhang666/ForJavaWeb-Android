@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="eat">
+        <item>商务套餐</item>
+        <item>外卖</item>
+    </string-array>
+    <string-array name="live">
+        <item>单人间</item>
+        <item>双人间</item>
+    </string-array>
+    <string-array name="take">
+        <item>济南站</item>
+        <item>大明湖站</item>
+        <item>章丘站</item>
+        <item>济南东站</item>
+        <item>济南西站</item>
+    </string-array>
+    <string-array name="number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="order">
+        <item>7:00–7:30</item>
+        <item>10:00–10:30</item>
+    </string-array>
+    <string-array name="inTime">
+        <item>2020–01–06 18:00</item>
+        <item>2020–01–07 09:00</item>
+        <item>2020–01–07 10:00</item>
+        <item>2020–01–07 11:00</item>
+    </string-array>
+    <string-array name="outTime">
+        <item>2020–01–08 18:00</item>
+        <item>2020–01–08 19:00</item>
+        <item>2020–01–08 20:00</item>
+        <item>2020–01–09 09:00</item>
+    </string-array>
+    <string-array name="order_time">
+        <item>2020–01–07 08:00–11:30</item>
+        <item>2020–01–07 13:00–17:30</item>
+        <item>2020–01–08 08:00–11:30</item>
+        <item>2020–01–08 13:00–17:30</item>
+    </string-array>
+</resources>
